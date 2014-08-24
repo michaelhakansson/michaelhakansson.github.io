@@ -1,0 +1,134 @@
+@import "foundation.css";
+
+/********* TOP BAR *********/
+
+/* Changes background color of the top bar */
+.top-bar {
+    background: #333333;
+}
+
+/* Color of text in top bar */
+.top-bar ul li a {
+	color: white;
+	font-weight: bold;
+	font-size: 0.8rem;
+}
+
+/* Color of the title text in the top bar */
+.top-bar .name h1 a {
+	color: white;
+}
+
+/* Color of the title text in the top bar on hover */
+.top-bar .name h1 a:hover {
+	background: #333333;
+	color: #d6d6d6;
+}
+
+/* Active button in menu */
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+	background: #5b5b5b;
+}
+
+/* Hover on the buttons */
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background: #333333;
+	color: #d6d6d6;
+}
+
+/* Hover on the active button */
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+	background: #5b5b5b;
+}
+
+/* h1 in top bar */
+h1.topbar {
+	padding-top: 0px;
+	background: #333333;
+}
+
+/********** BODY *********/
+
+body {
+	background: white;
+}
+
+h1{
+	padding-top: 1.5rem;
+	font-size: 2.5rem;
+}
+
+h4{
+	font-size: 1.1rem;
+	font-weight: bold;
+	padding-top: 0.2rem;
+}
+
+/* Make rows cover the whole width of the browser */
+.row.full-width {
+     width: 100%;
+     max-width: 100%; 
+}
+
+.panel {
+	background: rgba(255,102,204,0.25);
+}
+
+/* FOOTER */
+.footer{
+	background: #333333;
+	color: white;
+    position: bottom;
+    line-height: 50px;
+    width: 100%;
+    padding: 5px;
+    padding-left: 1.3rem;	
+    padding-right: 1.3rem;
+}
+
+.footer a {
+	color: white;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+.footer a:hover {
+	color: #d6d6d6;
+}
+
+.footericon {
+	font-size: 2rem;
+	padding: 0.2rem;
+}
+
+.alignright {
+	text-align: right;
+}
+
+/* END FOOTER*/
+
+.wrapper {
+    background: url("../img/sprouting-seed.jpg") left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 0;
+}
+
+.wrapper h1 {
+	font-size: 3.5em;
+	color: white;
+	font-weight: lighter;
+	padding-top: 180px;
+	margin-bottom: 25px;
+}
+
+.wrapper p.lead {
+	font-size: 1.5em;
+	color: white;
+	font-weight: lighter;
+}
