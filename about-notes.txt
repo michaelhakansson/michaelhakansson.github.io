@@ -1,0 +1,8 @@
+About
+
+<h3>Licenser</h3>
+<h5>Zurb Foundation</h5>
+Den här sidan är byggd med <a href="http://foundation.zurb.com" target="_blank">Foundation</a> från <a href="http://zurb.com" target="_blank">ZURB</a> som är licensierat under <a href="http://opensource.org/licenses/MIT" target="_blank">MIT-licensen</a>.
+
+<h5>Foto med frö/växt på förstasidan</h5>
+Fotot är licensierat under <a href="https://creativecommons.org/licenses/by/2.0/">Creative Commons</a>. Vissa rättigheter finns reserverade av <a href="https://www.flickr.com/photos/usdagov/">U.S. Department of Agriculture</a>.

@@ -10,7 +10,7 @@
 /* Color of text in top bar */
 .top-bar ul li a {
 	color: white;
-	font-weight: bold;
+	font-weight: 200;
 	font-size: 0.8rem;
 }
 
@@ -50,7 +50,7 @@ h1.topbar {
 /********** BODY *********/
 
 body {
-	background: white;
+	background: black;
 }
 
 h1{
@@ -71,14 +71,39 @@ h4{
 }
 
 .panel {
-	background: rgba(255,102,204,0.25);
+	font-weight: 200;
+	background: #87c540;
+	margin-top: 50px;
+	height: 25em;
+}
+
+.panel h1 {
+	font-weight: 200;
+	font-size: 1.6em;
+	padding-top: 0em;
+	color: white;
+}
+
+.panel p {
+	font-weight: 200;
+	color: white;
+}
+
+.panel img {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border: white;
+	border-style: solid;
+	border-width: thin;
+	margin-bottom: 0.9em;
 }
 
 /* FOOTER */
 .footer{
 	background: #333333;
 	color: white;
-    position: bottom;
+    position: bottom fixed;
     line-height: 50px;
     width: 100%;
     padding: 5px;
@@ -89,7 +114,7 @@ h4{
 .footer a {
 	color: white;
 	font-size: 0.8rem;
-	font-weight: bold;
+	font-weight: 200;
 }
 
 .footer a:hover {
@@ -101,14 +126,13 @@ h4{
 	padding: 0.2rem;
 }
 
-.alignright {
-	text-align: right;
-}
-
 /* END FOOTER*/
 
+
 .wrapper {
-    background: url("../img/sprouting-seed.jpg") left center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+    background: url("../img/seed.jpg") left center;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -119,11 +143,11 @@ h4{
     z-index: 0;
 }
 
+
 .wrapper h1 {
 	font-size: 3.5em;
 	color: white;
 	font-weight: lighter;
-	padding-top: 40%;
 	margin-bottom: 25px;
 }
 
@@ -131,4 +155,17 @@ h4{
 	font-size: 1.5em;
 	color: white;
 	font-weight: lighter;
+}
+
+
+/* ALIGNMENT */
+
+.alignright {
+	text-align: right;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
