@@ -25,6 +25,10 @@
 	color: #d6d6d6;
 }
 
+.top-bar img {
+	height: 30px;
+}
+
 /* Active button in menu */
 .top-bar-section li.active:not(.has-form) a:not(.button) {
 	background: #5b5b5b;
