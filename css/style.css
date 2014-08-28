@@ -152,8 +152,13 @@ p.lead {
 	margin-bottom: 0.9rem;
 }
 
+.bottom {
+	position: fixed;
+	bottom: 0px;
+}
+
 /* FOOTER */
-.footer{
+.footer {
 	background: #333333;
 	color: white;
     position: bottom fixed;
